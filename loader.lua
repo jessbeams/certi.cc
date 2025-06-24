@@ -1,9 +1,7 @@
-local HttpService = game:GetService("HttpService")
-
-local CURRENT_VERSION = "1.00" -- The version this loader expects to be valid
+local CURRENT_VERSION = "1.00" -- Change as needed
 
 local success, response = pcall(function()
-    return HttpService:GetAsync("https://raw.githubusercontent.com/jessbeams/certi.cc/refs/heads/main/source.lua")
+    return game:HttpGet("https://raw.githubusercontent.com/jessbeams/certi.cc/refs/heads/main/source.lua")
 end)
 
 if not success then
