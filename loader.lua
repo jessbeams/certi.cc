@@ -1,3 +1,4 @@
+--TestLOADER
 local CURRENT_VERSION = "1.01" -- Version you're currently running
 
 local Players = game:GetService("Players")
