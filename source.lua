@@ -1,6 +1,6 @@
 -- source.lua
 return {
-    Version = "1.01", -- Latest supported version
+    Version = "1.02", -- Latest supported version
 
     Code = function()
         print("✅ Script loaded successfully! Running version 1.01.")
